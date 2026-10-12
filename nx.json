@@ -14,7 +14,7 @@
   "targetDefaults": {
     "build": {
       "dependsOn": ["^build"],
-      "outputs": ["{project.root}/dist"]
+      "outputs": ["{project.root}/build"]
     }
   },
   "projects": {

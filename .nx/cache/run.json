@@ -1,0 +1,65 @@
+{
+  "run": {
+    "command": "nx run-many --target=serve --all --parallel=10",
+    "startTime": "2026-10-10T17:28:59.370Z",
+    "endTime": "2026-10-10T17:31:12.273Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "product-mfe:serve",
+      "target": "serve",
+      "projectName": "product-mfe",
+      "hash": "1734231375511164647",
+      "startTime": "2026-10-10T17:28:59.384Z",
+      "endTime": "2026-10-10T17:31:12.156Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    },
+    {
+      "taskId": "agent-shell:serve",
+      "target": "serve",
+      "projectName": "agent-shell",
+      "hash": "13782377896257055149",
+      "startTime": "2026-10-10T17:28:59.384Z",
+      "endTime": "2026-10-10T17:31:12.159Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    },
+    {
+      "taskId": "payment-mfe:serve",
+      "target": "serve",
+      "projectName": "payment-mfe",
+      "hash": "6261957456828566861",
+      "startTime": "2026-10-10T17:28:59.384Z",
+      "endTime": "2026-10-10T17:31:12.270Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    },
+    {
+      "taskId": "policy-mfe:serve",
+      "target": "serve",
+      "projectName": "policy-mfe",
+      "hash": "17885937631393720932",
+      "startTime": "2026-10-10T17:28:59.384Z",
+      "endTime": "2026-10-10T17:31:12.272Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    },
+    {
+      "taskId": "customer-mfe:serve",
+      "target": "serve",
+      "projectName": "customer-mfe",
+      "hash": "18197834315882487207",
+      "startTime": "2026-10-10T17:28:59.384Z",
+      "endTime": "2026-10-10T17:31:12.273Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}

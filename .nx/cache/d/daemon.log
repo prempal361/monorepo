@@ -1,0 +1,960 @@
+node:internal/modules/cjs/loader:1147
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\personal-data\prudential\node_modules\nx\src\daemon\server\start.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v20.11.0
+[NX Daemon Server] - 2026-10-10T16:34:13.564Z - Started listening on: \\.\pipe\nx\C:\Users\PREMSI~1\AppData\Local\Temp\72d11532e01c2ae0c3b4\d.sock
+[NX Daemon Server] - 2026-10-10T16:34:13.574Z - [WATCHER]: Subscribed to changes within: C:\personal-data\prudential (native)
+[NX Daemon Server] - 2026-10-10T16:34:13.579Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T16:34:13.583Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2026-10-10T16:34:13.585Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T16:34:13.587Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2026-10-10T16:34:13.656Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T16:34:13.656Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T16:34:13.656Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T16:34:13.721Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2026-10-10T16:34:13.722Z - Time taken for 'total for creating and serializing project graph' 133.42689999999993ms
+[NX Daemon Server] - 2026-10-10T16:34:13.723Z - Done responding to the client project-graph
+[NX Daemon Server] - 2026-10-10T16:34:13.724Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 134. Response time: 3.
+[NX Daemon Server] - 2026-10-10T16:34:14.157Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2026-10-10T16:34:14.158Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.8250000000000455ms
+[NX Daemon Server] - 2026-10-10T16:34:14.158Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2026-10-10T16:34:14.158Z - Handled HASH_TASKS. Handling time: 14. Response time: 1.
+[NX Daemon Server] - 2026-10-10T16:34:43.455Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T16:34:43.464Z - [WATCHER]: 0 file(s) created or restored, 13 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2026-10-10T16:34:43.495Z - [WATCHER]: 0 file(s) created or restored, 7 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2026-10-10T16:34:43.496Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T16:34:43.586Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T16:34:43.586Z - [REQUEST]: dist/0.js,dist/main.js,dist/144.js.LICENSE.txt,dist/index.html,dist/41.js.LICENSE.txt,dist/144.js,dist/41.js,dist/955.js,dist/237.js,dist/434.js.LICENSE.txt,dist/955.js.LICENSE.txt,dist/237.js.LICENSE.txt,dist/434.js
+[NX Daemon Server] - 2026-10-10T16:34:43.586Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T16:34:43.650Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T16:34:43.651Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.9413999999997031ms
+[NX Daemon Server] - 2026-10-10T16:34:43.651Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T16:34:43.651Z - Handled RECORD_OUTPUTS_HASH. Handling time: 5. Response time: 1.
+[NX Daemon Server] - 2026-10-10T16:34:43.712Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2026-10-10T16:35:37.668Z - Started listening on: \\.\pipe\nx\C:\Users\PREMSI~1\AppData\Local\Temp\72d11532e01c2ae0c3b4\d.sock
+[NX Daemon Server] - 2026-10-10T16:35:37.672Z - [WATCHER]: Subscribed to changes within: C:\personal-data\prudential (native)
+[NX Daemon Server] - 2026-10-10T16:35:37.680Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T16:35:37.684Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2026-10-10T16:35:37.684Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T16:35:37.686Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2026-10-10T16:35:37.753Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T16:35:37.753Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T16:35:37.753Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T16:35:37.810Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2026-10-10T16:35:37.812Z - Time taken for 'total for creating and serializing project graph' 124.12159999999997ms
+[NX Daemon Server] - 2026-10-10T16:35:37.813Z - Done responding to the client project-graph
+[NX Daemon Server] - 2026-10-10T16:35:37.813Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 124. Response time: 3.
+[NX Daemon Server] - 2026-10-10T16:35:37.874Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2026-10-10T16:35:37.874Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.9352000000000089ms
+[NX Daemon Server] - 2026-10-10T16:35:37.874Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2026-10-10T16:35:37.874Z - Handled HASH_TASKS. Handling time: 17. Response time: 0.
+[NX Daemon Server] - 2026-10-10T16:35:43.707Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T16:35:43.707Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T16:35:43.707Z - Handled RECORD_OUTPUTS_HASH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2026-10-10T16:35:43.714Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2026-10-10T16:37:04.693Z - [WATCHER]: package-lock.json was modified
+[NX Daemon Server] - 2026-10-10T16:37:04.694Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T16:37:04.800Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T16:37:04.801Z - [REQUEST]: package-lock.json
+[NX Daemon Server] - 2026-10-10T16:37:04.801Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T16:37:04.841Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 1.025099999998929ms
+[NX Daemon Server] - 2026-10-10T16:37:16.683Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T16:37:16.684Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2026-10-10T16:37:16.685Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T16:37:16.687Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2026-10-10T16:37:16.688Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2026-10-10T16:37:16.688Z - Time taken for 'total for creating and serializing project graph' 0.8994999999995343ms
+[NX Daemon Server] - 2026-10-10T16:37:16.689Z - Done responding to the client project-graph
+[NX Daemon Server] - 2026-10-10T16:37:16.689Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2026-10-10T16:37:16.739Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2026-10-10T16:37:16.740Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.7004000000015367ms
+[NX Daemon Server] - 2026-10-10T16:37:16.740Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2026-10-10T16:37:16.740Z - Handled HASH_TASKS. Handling time: 10. Response time: 1.
+[NX Daemon Server] - 2026-10-10T16:37:18.424Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T16:37:18.424Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T16:37:18.424Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2026-10-10T16:37:18.434Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2026-10-10T16:38:35.675Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T16:38:35.676Z - [WATCHER]: package-lock.json was modified
+[NX Daemon Server] - 2026-10-10T16:38:35.787Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T16:38:35.787Z - [REQUEST]: package-lock.json
+[NX Daemon Server] - 2026-10-10T16:38:35.787Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T16:38:35.831Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.5852000000013504ms
+[NX Daemon Server] - 2026-10-10T16:38:51.396Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T16:38:51.397Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2026-10-10T16:38:51.397Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T16:38:51.400Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2026-10-10T16:38:51.401Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2026-10-10T16:38:51.402Z - Time taken for 'total for creating and serializing project graph' 1.086200000019744ms
+[NX Daemon Server] - 2026-10-10T16:38:51.402Z - Done responding to the client project-graph
+[NX Daemon Server] - 2026-10-10T16:38:51.402Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2026-10-10T16:38:51.450Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2026-10-10T16:38:51.450Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.5062000000034459ms
+[NX Daemon Server] - 2026-10-10T16:38:51.450Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2026-10-10T16:38:51.451Z - Handled HASH_TASKS. Handling time: 12. Response time: 1.
+[NX Daemon Server] - 2026-10-10T16:38:53.112Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T16:38:53.112Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T16:38:53.112Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2026-10-10T16:38:53.123Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2026-10-10T16:39:40.592Z - [WATCHER]: .gitignore was modified
+[NX Daemon Server] - 2026-10-10T16:39:40.592Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T16:39:40.592Z - [WATCHER]: Stopping the watcher for C:\personal-data\prudential (sources)
+[NX Daemon Server] - 2026-10-10T16:39:40.593Z - [WATCHER]: Stopping the watcher for C:\personal-data\prudential (outputs)
+[NX Daemon Server] - 2026-10-10T16:39:40.593Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX Daemon Server] - 2026-10-10T16:39:56.587Z - Started listening on: \\.\pipe\nx\C:\Users\PREMSI~1\AppData\Local\Temp\72d11532e01c2ae0c3b4\d.sock
+[NX Daemon Server] - 2026-10-10T16:39:56.592Z - [WATCHER]: Subscribed to changes within: C:\personal-data\prudential (native)
+[NX Daemon Server] - 2026-10-10T16:39:56.594Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T16:39:56.596Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2026-10-10T16:39:56.598Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T16:39:56.600Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2026-10-10T16:39:56.654Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T16:39:56.654Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T16:39:56.654Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T16:39:56.706Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2026-10-10T16:39:56.708Z - Time taken for 'total for creating and serializing project graph' 106.64260000000002ms
+[NX Daemon Server] - 2026-10-10T16:39:56.709Z - Done responding to the client project-graph
+[NX Daemon Server] - 2026-10-10T16:39:56.709Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 106. Response time: 3.
+[NX Daemon Server] - 2026-10-10T16:39:56.754Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2026-10-10T16:39:56.754Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 1.0089999999999577ms
+[NX Daemon Server] - 2026-10-10T16:39:56.754Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2026-10-10T16:39:56.754Z - Handled HASH_TASKS. Handling time: 12. Response time: 0.
+[NX Daemon Server] - 2026-10-10T16:47:30.715Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2026-10-10T16:49:22.167Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T16:49:22.168Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2026-10-10T16:49:22.168Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T16:49:22.178Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2026-10-10T16:49:22.182Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2026-10-10T16:49:22.183Z - Time taken for 'total for creating and serializing project graph' 4.108499999972992ms
+[NX Daemon Server] - 2026-10-10T16:49:22.183Z - Done responding to the client project-graph
+[NX Daemon Server] - 2026-10-10T16:49:22.184Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 5. Response time: 1.
+[NX Daemon Server] - 2026-10-10T16:49:22.308Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2026-10-10T16:49:22.308Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.43850000004749745ms
+[NX Daemon Server] - 2026-10-10T16:49:22.308Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2026-10-10T16:49:22.309Z - Handled HASH_TASKS. Handling time: 24. Response time: 1.
+[NX Daemon Server] - 2026-10-10T16:49:22.381Z - [REQUEST]: Responding to the client. outputsHashesMatch
+[NX Daemon Server] - 2026-10-10T16:49:22.381Z - Done responding to the client outputsHashesMatch
+[NX Daemon Server] - 2026-10-10T16:49:22.381Z - Handled OUTPUTS_HASHES_MATCH. Handling time: 5. Response time: 0.
+[NX Daemon Server] - 2026-10-10T16:49:22.387Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T16:49:22.387Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T16:49:22.387Z - Handled RECORD_OUTPUTS_HASH. Handling time: 3. Response time: 0.
+[NX Daemon Server] - 2026-10-10T16:49:22.396Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2026-10-10T16:51:58.432Z - [WATCHER]: nx.json was modified
+[NX Daemon Server] - 2026-10-10T16:51:58.434Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T16:51:58.541Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T16:51:58.541Z - [REQUEST]: nx.json
+[NX Daemon Server] - 2026-10-10T16:51:58.542Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T16:51:58.590Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.4967999999644235ms
+[NX Daemon Server] - 2026-10-10T16:52:05.001Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T16:52:05.001Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2026-10-10T16:52:05.002Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T16:52:05.005Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2026-10-10T16:52:05.006Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2026-10-10T16:52:05.007Z - Time taken for 'total for creating and serializing project graph' 0.9862000000430271ms
+[NX Daemon Server] - 2026-10-10T16:52:05.007Z - Done responding to the client project-graph
+[NX Daemon Server] - 2026-10-10T16:52:05.007Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2026-10-10T16:52:05.052Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2026-10-10T16:52:05.052Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.3837999999523163ms
+[NX Daemon Server] - 2026-10-10T16:52:05.052Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2026-10-10T16:52:05.052Z - Handled HASH_TASKS. Handling time: 13. Response time: 0.
+[NX Daemon Server] - 2026-10-10T16:52:12.205Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T16:52:12.206Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T16:52:12.206Z - Handled RECORD_OUTPUTS_HASH. Handling time: 4. Response time: 1.
+[NX Daemon Server] - 2026-10-10T16:52:12.257Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2026-10-10T16:55:10.547Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T16:55:10.547Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2026-10-10T16:55:10.548Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T16:55:10.551Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2026-10-10T16:55:10.552Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2026-10-10T16:55:10.553Z - Time taken for 'total for creating and serializing project graph' 0.9882999999681488ms
+[NX Daemon Server] - 2026-10-10T16:55:10.553Z - Done responding to the client project-graph
+[NX Daemon Server] - 2026-10-10T16:55:10.553Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2026-10-10T16:55:10.560Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2026-10-10T16:55:30.246Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T16:55:30.247Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2026-10-10T16:55:30.248Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T16:55:30.253Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2026-10-10T16:55:30.254Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2026-10-10T16:55:30.255Z - Time taken for 'total for creating and serializing project graph' 0.9864999999990687ms
+[NX Daemon Server] - 2026-10-10T16:55:30.255Z - Done responding to the client project-graph
+[NX Daemon Server] - 2026-10-10T16:55:30.255Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2026-10-10T16:55:30.289Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2026-10-10T16:55:30.289Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 1.0372000000206754ms
+[NX Daemon Server] - 2026-10-10T16:55:30.289Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2026-10-10T16:55:30.289Z - Handled HASH_TASKS. Handling time: 5. Response time: 0.
+[NX Daemon Server] - 2026-10-10T16:55:30.348Z - [REQUEST]: Responding to the client. outputsHashesMatch
+[NX Daemon Server] - 2026-10-10T16:55:30.348Z - Done responding to the client outputsHashesMatch
+[NX Daemon Server] - 2026-10-10T16:55:30.348Z - Handled OUTPUTS_HASHES_MATCH. Handling time: 3. Response time: 0.
+[NX Daemon Server] - 2026-10-10T16:55:30.354Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T16:55:30.355Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T16:55:30.355Z - Handled RECORD_OUTPUTS_HASH. Handling time: 4. Response time: 1.
+[NX Daemon Server] - 2026-10-10T16:55:30.367Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2026-10-10T16:57:50.623Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T16:57:50.625Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2026-10-10T16:57:50.625Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T16:57:50.628Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2026-10-10T16:57:50.630Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2026-10-10T16:57:50.630Z - Time taken for 'total for creating and serializing project graph' 1.2428999999538064ms
+[NX Daemon Server] - 2026-10-10T16:57:50.631Z - Done responding to the client project-graph
+[NX Daemon Server] - 2026-10-10T16:57:50.631Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2. Response time: 1.
+[NX Daemon Server] - 2026-10-10T16:57:50.672Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2026-10-10T16:57:50.673Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.5431999999564141ms
+[NX Daemon Server] - 2026-10-10T16:57:50.673Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2026-10-10T16:57:50.673Z - Handled HASH_TASKS. Handling time: 7. Response time: 1.
+[NX Daemon Server] - 2026-10-10T16:57:50.745Z - [REQUEST]: Responding to the client. outputsHashesMatch
+[NX Daemon Server] - 2026-10-10T16:57:50.745Z - Done responding to the client outputsHashesMatch
+[NX Daemon Server] - 2026-10-10T16:57:50.745Z - Handled OUTPUTS_HASHES_MATCH. Handling time: 5. Response time: 0.
+[NX Daemon Server] - 2026-10-10T16:57:50.751Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T16:57:50.751Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T16:57:50.751Z - Handled RECORD_OUTPUTS_HASH. Handling time: 5. Response time: 0.
+[NX Daemon Server] - 2026-10-10T16:57:50.761Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2026-10-10T16:58:52.681Z - [WATCHER]: dist was deleted
+[NX Daemon Server] - 2026-10-10T16:58:52.681Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T16:58:52.794Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T16:58:52.794Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T16:58:52.794Z - [REQUEST]: dist
+[NX Daemon Server] - 2026-10-10T16:58:52.941Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 1.8326000000815839ms
+[NX Daemon Server] - 2026-10-10T16:59:02.074Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T16:59:02.075Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2026-10-10T16:59:02.076Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T16:59:02.079Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2026-10-10T16:59:02.080Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2026-10-10T16:59:02.080Z - Time taken for 'total for creating and serializing project graph' 1.013899999903515ms
+[NX Daemon Server] - 2026-10-10T16:59:02.081Z - Done responding to the client project-graph
+[NX Daemon Server] - 2026-10-10T16:59:02.081Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2026-10-10T16:59:02.125Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2026-10-10T16:59:02.125Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.5619999999180436ms
+[NX Daemon Server] - 2026-10-10T16:59:02.126Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2026-10-10T16:59:02.126Z - Handled HASH_TASKS. Handling time: 12. Response time: 1.
+[NX Daemon Server] - 2026-10-10T16:59:02.190Z - [REQUEST]: Responding to the client. outputsHashesMatch
+[NX Daemon Server] - 2026-10-10T16:59:02.190Z - Done responding to the client outputsHashesMatch
+[NX Daemon Server] - 2026-10-10T16:59:02.190Z - Handled OUTPUTS_HASHES_MATCH. Handling time: 3. Response time: 0.
+[NX Daemon Server] - 2026-10-10T16:59:02.194Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T16:59:02.195Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T16:59:02.195Z - Handled RECORD_OUTPUTS_HASH. Handling time: 2. Response time: 1.
+[NX Daemon Server] - 2026-10-10T16:59:02.204Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2026-10-10T17:00:59.186Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:00:59.190Z - [WATCHER]: apps/agent-shell/src/App.jsx was modified
+[NX Daemon Server] - 2026-10-10T17:00:59.295Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:00:59.295Z - [REQUEST]: apps/agent-shell/src/App.jsx
+[NX Daemon Server] - 2026-10-10T17:00:59.295Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:00:59.324Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.5453999999444932ms
+[NX Daemon Server] - 2026-10-10T17:01:04.819Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:01:04.820Z - [WATCHER]: apps/agent-shell/src/App.jsx was modified
+[NX Daemon Server] - 2026-10-10T17:01:05.024Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:01:05.024Z - [REQUEST]: apps/agent-shell/src/App.jsx
+[NX Daemon Server] - 2026-10-10T17:01:05.024Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:01:05.064Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.6611999999731779ms
+[NX Daemon Server] - 2026-10-10T17:01:13.427Z - [WATCHER]: apps/agent-shell/src/App.jsx was modified
+[NX Daemon Server] - 2026-10-10T17:01:13.428Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:01:13.835Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:01:13.835Z - [REQUEST]: apps/agent-shell/src/App.jsx
+[NX Daemon Server] - 2026-10-10T17:01:13.835Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:01:13.871Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.9486000000033528ms
+[NX Daemon Server] - 2026-10-10T17:01:28.517Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T17:01:28.517Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2026-10-10T17:01:28.518Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T17:01:28.521Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2026-10-10T17:01:28.522Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2026-10-10T17:01:28.522Z - Time taken for 'total for creating and serializing project graph' 1.1957000000402331ms
+[NX Daemon Server] - 2026-10-10T17:01:28.523Z - Done responding to the client project-graph
+[NX Daemon Server] - 2026-10-10T17:01:28.523Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2. Response time: 1.
+[NX Daemon Server] - 2026-10-10T17:01:28.569Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2026-10-10T17:01:28.569Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.6076999998185784ms
+[NX Daemon Server] - 2026-10-10T17:01:28.569Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2026-10-10T17:01:28.569Z - Handled HASH_TASKS. Handling time: 15. Response time: 0.
+[NX Daemon Server] - 2026-10-10T17:01:37.269Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:01:37.288Z - [WATCHER]: 0 file(s) created or restored, 13 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2026-10-10T17:01:37.376Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:01:37.377Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:01:37.377Z - Handled RECORD_OUTPUTS_HASH. Handling time: 5. Response time: 1.
+[NX Daemon Server] - 2026-10-10T17:01:37.402Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:01:37.402Z - [REQUEST]: dist/144.js,dist/41.js.LICENSE.txt,dist/index.html,dist/144.js.LICENSE.txt,dist/434.js,dist/955.js.LICENSE.txt,dist/41.js,dist/237.js,dist/0.js,dist/main.js,dist/434.js.LICENSE.txt,dist/955.js,dist/237.js.LICENSE.txt
+[NX Daemon Server] - 2026-10-10T17:01:37.402Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:01:37.441Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.7173999999649823ms
+[NX Daemon Server] - 2026-10-10T17:01:37.479Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2026-10-10T17:17:07.655Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:17:07.768Z - [WATCHER]: apps/agent-shell/webpack.config.js was modified
+[NX Daemon Server] - 2026-10-10T17:17:07.985Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:17:07.985Z - [REQUEST]: apps/agent-shell/webpack.config.js
+[NX Daemon Server] - 2026-10-10T17:17:07.985Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:17:08.062Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 3.7193999998271465ms
+[NX Daemon Server] - 2026-10-10T17:17:29.131Z - [WATCHER]: apps/customer-mfe/project.json was modified
+[NX Daemon Server] - 2026-10-10T17:17:29.131Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:17:29.547Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:17:29.547Z - [REQUEST]: apps/customer-mfe/project.json
+[NX Daemon Server] - 2026-10-10T17:17:29.547Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:17:29.597Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.5892999996431172ms
+[NX Daemon Server] - 2026-10-10T17:17:34.972Z - [WATCHER]: apps/customer-mfe/webpack.config.js was modified
+[NX Daemon Server] - 2026-10-10T17:17:34.972Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:17:35.785Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:17:35.785Z - [REQUEST]: apps/customer-mfe/webpack.config.js
+[NX Daemon Server] - 2026-10-10T17:17:35.785Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:17:35.827Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.5520999999716878ms
+[NX Daemon Server] - 2026-10-10T17:17:41.477Z - [WATCHER]: apps/customer-mfe/public/index.html was modified
+[NX Daemon Server] - 2026-10-10T17:17:41.478Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:17:43.100Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:17:43.100Z - [REQUEST]: apps/customer-mfe/public/index.html
+[NX Daemon Server] - 2026-10-10T17:17:43.100Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:17:43.146Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.5627000001259148ms
+[NX Daemon Server] - 2026-10-10T17:17:46.488Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:17:46.489Z - [WATCHER]: apps/customer-mfe/src/index.js was modified
+[NX Daemon Server] - 2026-10-10T17:17:49.704Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:17:49.704Z - [REQUEST]: apps/customer-mfe/src/index.js
+[NX Daemon Server] - 2026-10-10T17:17:49.704Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:17:49.739Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.42079999996349216ms
+[NX Daemon Server] - 2026-10-10T17:17:51.170Z - [WATCHER]: apps/customer-mfe/src/bootstrap.jsx was modified
+[NX Daemon Server] - 2026-10-10T17:17:51.174Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:17:54.879Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:17:54.880Z - [WATCHER]: apps/product-mfe/project.json was modified
+[NX Daemon Server] - 2026-10-10T17:17:57.580Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:17:57.580Z - [REQUEST]: apps/customer-mfe/src/bootstrap.jsx,apps/product-mfe/project.json
+[NX Daemon Server] - 2026-10-10T17:17:57.580Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:17:57.649Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 1.3429999998770654ms
+[NX Daemon Server] - 2026-10-10T17:18:00.777Z - [WATCHER]: apps/product-mfe/webpack.config.js was modified
+[NX Daemon Server] - 2026-10-10T17:18:00.778Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:18:05.174Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:18:05.176Z - [WATCHER]: apps/product-mfe/public/index.html was modified
+[NX Daemon Server] - 2026-10-10T17:18:07.195Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:18:07.195Z - [REQUEST]: apps/product-mfe/webpack.config.js,apps/product-mfe/public/index.html
+[NX Daemon Server] - 2026-10-10T17:18:07.195Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:18:07.249Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 1.4290000000037253ms
+[NX Daemon Server] - 2026-10-10T17:18:10.157Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:18:10.158Z - [WATCHER]: apps/product-mfe/src/index.js was modified
+[NX Daemon Server] - 2026-10-10T17:18:14.815Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:18:14.816Z - [WATCHER]: apps/product-mfe/src/bootstrap.jsx was modified
+[NX Daemon Server] - 2026-10-10T17:18:16.575Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:18:16.575Z - [REQUEST]: apps/product-mfe/src/index.js,apps/product-mfe/src/bootstrap.jsx
+[NX Daemon Server] - 2026-10-10T17:18:16.575Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:18:16.630Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.6722999997437ms
+[NX Daemon Server] - 2026-10-10T17:18:27.809Z - [WATCHER]: apps/payment-mfe/project.json was modified
+[NX Daemon Server] - 2026-10-10T17:18:27.810Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:18:34.064Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:18:34.065Z - [WATCHER]: apps/payment-mfe/webpack.config.js was modified
+[NX Daemon Server] - 2026-10-10T17:18:34.215Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:18:34.215Z - [REQUEST]: apps/payment-mfe/project.json,apps/payment-mfe/webpack.config.js
+[NX Daemon Server] - 2026-10-10T17:18:34.215Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:18:34.273Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.4989999998360872ms
+[NX Daemon Server] - 2026-10-10T17:18:40.226Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:18:40.229Z - [WATCHER]: apps/payment-mfe/public/index.html was modified
+[NX Daemon Server] - 2026-10-10T17:18:44.558Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:18:44.561Z - [WATCHER]: apps/payment-mfe/src/index.js was modified
+[NX Daemon Server] - 2026-10-10T17:18:46.635Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:18:46.635Z - [REQUEST]: apps/payment-mfe/public/index.html,apps/payment-mfe/src/index.js
+[NX Daemon Server] - 2026-10-10T17:18:46.635Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:18:46.696Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 1.5681000002659857ms
+[NX Daemon Server] - 2026-10-10T17:18:51.216Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:18:51.225Z - [WATCHER]: apps/payment-mfe/src/bootstrap.jsx was modified
+[NX Daemon Server] - 2026-10-10T17:18:57.028Z - [WATCHER]: apps/policy-mfe/project.json was modified
+[NX Daemon Server] - 2026-10-10T17:18:57.028Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:18:57.632Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:18:57.632Z - [REQUEST]: apps/payment-mfe/src/bootstrap.jsx,apps/policy-mfe/project.json
+[NX Daemon Server] - 2026-10-10T17:18:57.632Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:18:57.667Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.46959999995306134ms
+[NX Daemon Server] - 2026-10-10T17:19:03.013Z - [WATCHER]: apps/policy-mfe/webpack.config.js was modified
+[NX Daemon Server] - 2026-10-10T17:19:03.016Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:19:07.656Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:19:07.657Z - [WATCHER]: apps/policy-mfe/public/index.html was modified
+[NX Daemon Server] - 2026-10-10T17:19:09.423Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:19:09.423Z - [REQUEST]: apps/policy-mfe/webpack.config.js,apps/policy-mfe/public/index.html
+[NX Daemon Server] - 2026-10-10T17:19:09.424Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:19:09.482Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.45750000001862645ms
+[NX Daemon Server] - 2026-10-10T17:19:12.895Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:19:12.896Z - [WATCHER]: apps/policy-mfe/src/index.js was modified
+[NX Daemon Server] - 2026-10-10T17:19:19.307Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:19:19.307Z - [REQUEST]: apps/policy-mfe/src/index.js
+[NX Daemon Server] - 2026-10-10T17:19:19.307Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:19:19.384Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 1.237199999857694ms
+[NX Daemon Server] - 2026-10-10T17:19:23.101Z - [WATCHER]: apps/policy-mfe/src/bootstrap.jsx was modified
+[NX Daemon Server] - 2026-10-10T17:19:23.119Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:19:29.506Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:19:29.506Z - [REQUEST]: apps/policy-mfe/src/bootstrap.jsx
+[NX Daemon Server] - 2026-10-10T17:19:29.506Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:19:29.537Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.4687999999150634ms
+[NX Daemon Server] - 2026-10-10T17:19:35.164Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T17:19:35.165Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2026-10-10T17:19:35.167Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T17:19:35.171Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2026-10-10T17:19:35.172Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2026-10-10T17:19:35.172Z - Time taken for 'total for creating and serializing project graph' 0.8926000003702939ms
+[NX Daemon Server] - 2026-10-10T17:19:35.172Z - Done responding to the client project-graph
+[NX Daemon Server] - 2026-10-10T17:19:35.172Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2026-10-10T17:19:35.239Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2026-10-10T17:19:35.239Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 2.1634999997913837ms
+[NX Daemon Server] - 2026-10-10T17:19:35.239Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2026-10-10T17:19:35.239Z - Handled HASH_TASKS. Handling time: 23. Response time: 0.
+[NX Daemon Server] - 2026-10-10T17:19:46.413Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:19:46.413Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:19:46.413Z - Handled RECORD_OUTPUTS_HASH. Handling time: 28. Response time: 0.
+[NX Daemon Server] - 2026-10-10T17:19:46.426Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:19:46.426Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:19:46.426Z - Handled RECORD_OUTPUTS_HASH. Handling time: 11. Response time: 0.
+[NX Daemon Server] - 2026-10-10T17:19:47.311Z - [WATCHER]: 0 file(s) created or restored, 13 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2026-10-10T17:19:47.319Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:19:47.383Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:19:47.384Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:19:47.385Z - Handled RECORD_OUTPUTS_HASH. Handling time: 5. Response time: 2.
+[NX Daemon Server] - 2026-10-10T17:19:47.431Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:19:47.431Z - [REQUEST]: dist-agent-shell/main.js,dist-agent-shell/41.js,dist-agent-shell/955.js,dist-agent-shell/144.js.LICENSE.txt,dist-agent-shell/237.js,dist-agent-shell/144.js,dist-agent-shell/41.js.LICENSE.txt,dist-agent-shell/955.js.LICENSE.txt,dist-agent-shell/0.js,dist-agent-shell/434.js,dist-agent-shell/index.html,dist-agent-shell/237.js.LICENSE.txt,dist-agent-shell/434.js.LICENSE.txt
+[NX Daemon Server] - 2026-10-10T17:19:47.431Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:19:47.510Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.5936000002548099ms
+[NX Daemon Server] - 2026-10-10T17:19:53.266Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:19:53.266Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:19:53.266Z - Handled RECORD_OUTPUTS_HASH. Handling time: 5. Response time: 0.
+[NX Daemon Server] - 2026-10-10T17:19:53.366Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:19:53.366Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:19:53.366Z - Handled RECORD_OUTPUTS_HASH. Handling time: 3. Response time: 0.
+[NX Daemon Server] - 2026-10-10T17:19:53.374Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2026-10-10T17:19:59.904Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:19:59.906Z - [WATCHER]: apps/product-mfe/src/modules/product/rules/productRules.js was modified
+[NX Daemon Server] - 2026-10-10T17:20:00.114Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:20:00.115Z - [REQUEST]: apps/product-mfe/src/modules/product/rules/productRules.js
+[NX Daemon Server] - 2026-10-10T17:20:00.115Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:20:00.178Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.5572000001557171ms
+[NX Daemon Server] - 2026-10-10T17:20:06.602Z - [WATCHER]: apps/product-mfe/src/modules/product/services/productService.js was modified
+[NX Daemon Server] - 2026-10-10T17:20:06.602Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:20:07.007Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:20:07.007Z - [REQUEST]: apps/product-mfe/src/modules/product/services/productService.js
+[NX Daemon Server] - 2026-10-10T17:20:07.007Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:20:07.047Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.5342999999411404ms
+[NX Daemon Server] - 2026-10-10T17:20:12.862Z - [WATCHER]: apps/product-mfe/src/modules/product/store/productSlice.js was modified
+[NX Daemon Server] - 2026-10-10T17:20:12.864Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:20:13.675Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:20:13.675Z - [REQUEST]: apps/product-mfe/src/modules/product/store/productSlice.js
+[NX Daemon Server] - 2026-10-10T17:20:13.675Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:20:13.753Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 1.1720999996177852ms
+[NX Daemon Server] - 2026-10-10T17:20:18.313Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:20:18.314Z - [WATCHER]: apps/product-mfe/src/modules/product/components/ProductCard.jsx was modified
+[NX Daemon Server] - 2026-10-10T17:20:19.928Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:20:19.929Z - [REQUEST]: apps/product-mfe/src/modules/product/components/ProductCard.jsx
+[NX Daemon Server] - 2026-10-10T17:20:19.929Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:20:19.993Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 1.0216000000946224ms
+[NX Daemon Server] - 2026-10-10T17:20:23.182Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:20:23.183Z - [WATCHER]: apps/product-mfe/src/modules/product/components/product.css was modified
+[NX Daemon Server] - 2026-10-10T17:20:26.397Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:20:26.397Z - [REQUEST]: apps/product-mfe/src/modules/product/components/product.css
+[NX Daemon Server] - 2026-10-10T17:20:26.397Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:20:26.435Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.4673000001348555ms
+[NX Daemon Server] - 2026-10-10T17:20:28.436Z - [WATCHER]: apps/product-mfe/src/modules/product/components/ProductPage.jsx was modified
+[NX Daemon Server] - 2026-10-10T17:20:28.436Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:20:32.161Z - [WATCHER]: apps/policy-mfe/src/modules/policy/rules/policyRules.js was modified
+[NX Daemon Server] - 2026-10-10T17:20:32.161Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:20:34.844Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:20:34.844Z - [REQUEST]: apps/product-mfe/src/modules/product/components/ProductPage.jsx,apps/policy-mfe/src/modules/policy/rules/policyRules.js
+[NX Daemon Server] - 2026-10-10T17:20:34.844Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:20:34.912Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.9907999997958541ms
+[NX Daemon Server] - 2026-10-10T17:20:37.118Z - [WATCHER]: apps/policy-mfe/src/modules/policy/services/policyService.js was modified
+[NX Daemon Server] - 2026-10-10T17:20:37.118Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:20:43.207Z - [WATCHER]: apps/policy-mfe/src/modules/policy/store/policySlice.js was modified
+[NX Daemon Server] - 2026-10-10T17:20:43.208Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:20:43.531Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:20:43.531Z - [REQUEST]: apps/policy-mfe/src/modules/policy/services/policyService.js,apps/policy-mfe/src/modules/policy/store/policySlice.js
+[NX Daemon Server] - 2026-10-10T17:20:43.531Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:20:43.566Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.41390000004321337ms
+[NX Daemon Server] - 2026-10-10T17:20:47.973Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:20:47.974Z - [WATCHER]: apps/policy-mfe/src/modules/policy/components/PolicyDetailsCard.jsx was modified
+[NX Daemon Server] - 2026-10-10T17:20:52.697Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:20:52.698Z - [WATCHER]: apps/policy-mfe/src/modules/policy/components/policy.css was modified
+[NX Daemon Server] - 2026-10-10T17:20:54.386Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:20:54.386Z - [REQUEST]: apps/policy-mfe/src/modules/policy/components/PolicyDetailsCard.jsx,apps/policy-mfe/src/modules/policy/components/policy.css
+[NX Daemon Server] - 2026-10-10T17:20:54.386Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:20:54.424Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.5349999996833503ms
+[NX Daemon Server] - 2026-10-10T17:20:58.893Z - [WATCHER]: apps/policy-mfe/src/modules/policy/components/PolicyPage.jsx was modified
+[NX Daemon Server] - 2026-10-10T17:20:58.893Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:21:05.294Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:21:05.294Z - [REQUEST]: apps/policy-mfe/src/modules/policy/components/PolicyPage.jsx
+[NX Daemon Server] - 2026-10-10T17:21:05.294Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:21:05.326Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.4997000000439584ms
+[NX Daemon Server] - 2026-10-10T17:21:21.563Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T17:21:21.563Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2026-10-10T17:21:21.564Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T17:21:21.566Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2026-10-10T17:21:21.567Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2026-10-10T17:21:21.568Z - Time taken for 'total for creating and serializing project graph' 0.8061999999918044ms
+[NX Daemon Server] - 2026-10-10T17:21:21.568Z - Done responding to the client project-graph
+[NX Daemon Server] - 2026-10-10T17:21:21.568Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2026-10-10T17:21:21.602Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2026-10-10T17:21:21.602Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.3242999999783933ms
+[NX Daemon Server] - 2026-10-10T17:21:21.603Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2026-10-10T17:21:21.603Z - Handled HASH_TASKS. Handling time: 7. Response time: 1.
+[NX Daemon Server] - 2026-10-10T17:21:21.711Z - [REQUEST]: Responding to the client. outputsHashesMatch
+[NX Daemon Server] - 2026-10-10T17:21:21.711Z - Done responding to the client outputsHashesMatch
+[NX Daemon Server] - 2026-10-10T17:21:21.711Z - Handled OUTPUTS_HASHES_MATCH. Handling time: 6. Response time: 0.
+[NX Daemon Server] - 2026-10-10T17:21:21.717Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:21:21.717Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:21:21.718Z - Handled RECORD_OUTPUTS_HASH. Handling time: 4. Response time: 1.
+[NX Daemon Server] - 2026-10-10T17:21:31.465Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:21:31.465Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:21:31.465Z - Handled RECORD_OUTPUTS_HASH. Handling time: 12. Response time: 0.
+[NX Daemon Server] - 2026-10-10T17:21:31.610Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:21:31.610Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:21:31.610Z - Handled RECORD_OUTPUTS_HASH. Handling time: 9. Response time: 0.
+[NX Daemon Server] - 2026-10-10T17:21:32.655Z - [WATCHER]: 0 file(s) created or restored, 14 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2026-10-10T17:21:32.656Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:21:32.712Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:21:32.712Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:21:32.712Z - Handled RECORD_OUTPUTS_HASH. Handling time: 5. Response time: 0.
+[NX Daemon Server] - 2026-10-10T17:21:32.765Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:21:32.765Z - [REQUEST]: dist-product-mfe/remoteEntry.js,dist-product-mfe/41.js,dist-product-mfe/144.js.LICENSE.txt,dist-product-mfe/237.js.LICENSE.txt,dist-product-mfe/41.js.LICENSE.txt,dist-product-mfe/index.html,dist-product-mfe/144.js,dist-product-mfe/681.js,dist-product-mfe/0.js,dist-product-mfe/main.js,dist-product-mfe/237.js,dist-product-mfe/139.js,dist-product-mfe/139.js.LICENSE.txt,dist-product-mfe/681.js.LICENSE.txt
+[NX Daemon Server] - 2026-10-10T17:21:32.765Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:21:32.800Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.6685000001452863ms
+[NX Daemon Server] - 2026-10-10T17:21:37.695Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:21:37.697Z - [WATCHER]: 0 file(s) created or restored, 14 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2026-10-10T17:21:37.746Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:21:37.748Z - [WATCHER]: 0 file(s) created or restored, 5 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2026-10-10T17:21:37.803Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:21:37.803Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:21:37.803Z - Handled RECORD_OUTPUTS_HASH. Handling time: 6. Response time: 0.
+[NX Daemon Server] - 2026-10-10T17:21:37.814Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2026-10-10T17:21:37.904Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:21:37.905Z - [REQUEST]: dist-policy-mfe/0.js,dist-policy-mfe/237.js.LICENSE.txt,dist-policy-mfe/144.js,dist-policy-mfe/41.js.LICENSE.txt,dist-policy-mfe/index.html,dist-policy-mfe/main.js,dist-policy-mfe/35.js.LICENSE.txt,dist-policy-mfe/682.js,dist-policy-mfe/41.js,dist-policy-mfe/remoteEntry.js,dist-policy-mfe/35.js,dist-policy-mfe/144.js.LICENSE.txt,dist-policy-mfe/682.js.LICENSE.txt,dist-policy-mfe/237.js
+[NX Daemon Server] - 2026-10-10T17:21:37.905Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:21:37.944Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.45589999994263053ms
+[NX Daemon Server] - 2026-10-10T17:21:48.415Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:21:48.416Z - [WATCHER]: apps/customer-mfe/src/modules/customer/components/CustomerPage.jsx was modified
+[NX Daemon Server] - 2026-10-10T17:21:48.829Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:21:48.830Z - [REQUEST]: apps/customer-mfe/src/modules/customer/components/CustomerPage.jsx
+[NX Daemon Server] - 2026-10-10T17:21:48.830Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:21:48.879Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.4871999998576939ms
+[NX Daemon Server] - 2026-10-10T17:21:55.001Z - [WATCHER]: apps/payment-mfe/src/modules/payment/components/PaymentPage.jsx was modified
+[NX Daemon Server] - 2026-10-10T17:21:55.001Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:21:55.819Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:21:55.819Z - [REQUEST]: apps/payment-mfe/src/modules/payment/components/PaymentPage.jsx
+[NX Daemon Server] - 2026-10-10T17:21:55.819Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:21:55.890Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.8966000000946224ms
+[NX Daemon Server] - 2026-10-10T17:22:04.270Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T17:22:04.271Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2026-10-10T17:22:04.272Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T17:22:04.274Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2026-10-10T17:22:04.274Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2026-10-10T17:22:04.275Z - Time taken for 'total for creating and serializing project graph' 0.7020000000484288ms
+[NX Daemon Server] - 2026-10-10T17:22:04.275Z - Done responding to the client project-graph
+[NX Daemon Server] - 2026-10-10T17:22:04.275Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2026-10-10T17:22:04.315Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2026-10-10T17:22:04.316Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.4429999999701977ms
+[NX Daemon Server] - 2026-10-10T17:22:04.316Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2026-10-10T17:22:04.316Z - Handled HASH_TASKS. Handling time: 11. Response time: 1.
+[NX Daemon Server] - 2026-10-10T17:22:04.424Z - [REQUEST]: Responding to the client. outputsHashesMatch
+[NX Daemon Server] - 2026-10-10T17:22:04.425Z - Done responding to the client outputsHashesMatch
+[NX Daemon Server] - 2026-10-10T17:22:04.425Z - Handled OUTPUTS_HASHES_MATCH. Handling time: 4. Response time: 1.
+[NX Daemon Server] - 2026-10-10T17:22:04.433Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:22:04.433Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:22:04.433Z - Handled RECORD_OUTPUTS_HASH. Handling time: 6. Response time: 0.
+[NX Daemon Server] - 2026-10-10T17:22:04.451Z - [REQUEST]: Responding to the client. outputsHashesMatch
+[NX Daemon Server] - 2026-10-10T17:22:04.451Z - Done responding to the client outputsHashesMatch
+[NX Daemon Server] - 2026-10-10T17:22:04.452Z - Handled OUTPUTS_HASHES_MATCH. Handling time: 13. Response time: 1.
+[NX Daemon Server] - 2026-10-10T17:22:04.502Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:22:04.502Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:22:04.502Z - Handled RECORD_OUTPUTS_HASH. Handling time: 50. Response time: 0.
+[NX Daemon Server] - 2026-10-10T17:22:04.525Z - [REQUEST]: Responding to the client. outputsHashesMatch
+[NX Daemon Server] - 2026-10-10T17:22:04.528Z - Done responding to the client outputsHashesMatch
+[NX Daemon Server] - 2026-10-10T17:22:04.528Z - Handled OUTPUTS_HASHES_MATCH. Handling time: 19. Response time: 3.
+[NX Daemon Server] - 2026-10-10T17:22:04.537Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:22:04.537Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:22:04.537Z - Handled RECORD_OUTPUTS_HASH. Handling time: 6. Response time: 1.
+[NX Daemon Server] - 2026-10-10T17:22:12.893Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:22:12.894Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:22:12.894Z - Handled RECORD_OUTPUTS_HASH. Handling time: 5. Response time: 1.
+[NX Daemon Server] - 2026-10-10T17:22:12.900Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:22:12.900Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:22:12.900Z - Handled RECORD_OUTPUTS_HASH. Handling time: 4. Response time: 0.
+[NX Daemon Server] - 2026-10-10T17:22:12.907Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2026-10-10T17:22:20.123Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:22:20.126Z - [WATCHER]: apps/customer-mfe/src/modules/customer/services/customerService.js was modified
+[NX Daemon Server] - 2026-10-10T17:22:20.240Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:22:20.240Z - [REQUEST]: apps/customer-mfe/src/modules/customer/services/customerService.js
+[NX Daemon Server] - 2026-10-10T17:22:20.240Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:22:20.421Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.5306000001728535ms
+[NX Daemon Server] - 2026-10-10T17:22:27.626Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:22:27.627Z - [WATCHER]: apps/customer-mfe/src/modules/customer/store/customerSlice.js was modified
+[NX Daemon Server] - 2026-10-10T17:22:27.842Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:22:27.842Z - [REQUEST]: apps/customer-mfe/src/modules/customer/store/customerSlice.js
+[NX Daemon Server] - 2026-10-10T17:22:27.842Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:22:27.892Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.5238999999128282ms
+[NX Daemon Server] - 2026-10-10T17:22:32.840Z - [WATCHER]: apps/customer-mfe/src/modules/customer/components/CustomerCard.jsx was modified
+[NX Daemon Server] - 2026-10-10T17:22:32.840Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:22:33.246Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:22:33.246Z - [REQUEST]: apps/customer-mfe/src/modules/customer/components/CustomerCard.jsx
+[NX Daemon Server] - 2026-10-10T17:22:33.246Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:22:33.279Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.5156000000424683ms
+[NX Daemon Server] - 2026-10-10T17:22:42.104Z - [WATCHER]: apps/customer-mfe/src/modules/customer/components/CustomerSearchForm.jsx was modified
+[NX Daemon Server] - 2026-10-10T17:22:42.105Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:22:42.918Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:22:42.918Z - [REQUEST]: apps/customer-mfe/src/modules/customer/components/CustomerSearchForm.jsx
+[NX Daemon Server] - 2026-10-10T17:22:42.918Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:22:42.986Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 1.8508000001311302ms
+[NX Daemon Server] - 2026-10-10T17:22:50.430Z - [WATCHER]: apps/customer-mfe/src/modules/customer/components/CustomerCreateForm.jsx was modified
+[NX Daemon Server] - 2026-10-10T17:22:50.430Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:22:52.046Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:22:52.047Z - [REQUEST]: apps/customer-mfe/src/modules/customer/components/CustomerCreateForm.jsx
+[NX Daemon Server] - 2026-10-10T17:22:52.047Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:22:52.122Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 1.1661999998614192ms
+[NX Daemon Server] - 2026-10-10T17:22:55.787Z - [WATCHER]: apps/customer-mfe/src/modules/customer/components/customer.css was modified
+[NX Daemon Server] - 2026-10-10T17:22:55.787Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:22:58.993Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:22:58.993Z - [REQUEST]: apps/customer-mfe/src/modules/customer/components/customer.css
+[NX Daemon Server] - 2026-10-10T17:22:58.993Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:22:59.067Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 1.8045000000856817ms
+[NX Daemon Server] - 2026-10-10T17:23:27.528Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T17:23:27.529Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2026-10-10T17:23:27.531Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T17:23:27.534Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2026-10-10T17:23:27.534Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2026-10-10T17:23:27.535Z - Time taken for 'total for creating and serializing project graph' 0.7542000003159046ms
+[NX Daemon Server] - 2026-10-10T17:23:27.535Z - Done responding to the client project-graph
+[NX Daemon Server] - 2026-10-10T17:23:27.535Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2026-10-10T17:23:27.576Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2026-10-10T17:23:27.576Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 3.4641999998129904ms
+[NX Daemon Server] - 2026-10-10T17:23:27.576Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2026-10-10T17:23:27.576Z - Handled HASH_TASKS. Handling time: 15. Response time: 0.
+[NX Daemon Server] - 2026-10-10T17:23:27.679Z - [REQUEST]: Responding to the client. outputsHashesMatch
+[NX Daemon Server] - 2026-10-10T17:23:27.679Z - Done responding to the client outputsHashesMatch
+[NX Daemon Server] - 2026-10-10T17:23:27.679Z - Handled OUTPUTS_HASHES_MATCH. Handling time: 4. Response time: 0.
+[NX Daemon Server] - 2026-10-10T17:23:27.687Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:23:27.689Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:23:27.689Z - Handled RECORD_OUTPUTS_HASH. Handling time: 5. Response time: 2.
+[NX Daemon Server] - 2026-10-10T17:23:27.703Z - [REQUEST]: Responding to the client. outputsHashesMatch
+[NX Daemon Server] - 2026-10-10T17:23:27.703Z - Done responding to the client outputsHashesMatch
+[NX Daemon Server] - 2026-10-10T17:23:27.704Z - Handled OUTPUTS_HASHES_MATCH. Handling time: 8. Response time: 1.
+[NX Daemon Server] - 2026-10-10T17:23:27.710Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:23:27.710Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:23:27.710Z - Handled RECORD_OUTPUTS_HASH. Handling time: 5. Response time: 0.
+[NX Daemon Server] - 2026-10-10T17:23:27.731Z - [REQUEST]: Responding to the client. outputsHashesMatch
+[NX Daemon Server] - 2026-10-10T17:23:27.731Z - Done responding to the client outputsHashesMatch
+[NX Daemon Server] - 2026-10-10T17:23:27.731Z - Handled OUTPUTS_HASHES_MATCH. Handling time: 16. Response time: 0.
+[NX Daemon Server] - 2026-10-10T17:23:27.738Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:23:27.739Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:23:27.739Z - Handled RECORD_OUTPUTS_HASH. Handling time: 5. Response time: 1.
+[NX Daemon Server] - 2026-10-10T17:23:36.119Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:23:36.119Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:23:36.119Z - Handled RECORD_OUTPUTS_HASH. Handling time: 6. Response time: 0.
+[NX Daemon Server] - 2026-10-10T17:23:36.636Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:23:36.637Z - [WATCHER]: 0 file(s) created or restored, 14 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2026-10-10T17:23:36.837Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:23:36.837Z - [REQUEST]: dist-customer-mfe/main.js,dist-customer-mfe/759.js,dist-customer-mfe/144.js,dist-customer-mfe/668.js,dist-customer-mfe/144.js.LICENSE.txt,dist-customer-mfe/237.js.LICENSE.txt,dist-customer-mfe/237.js,dist-customer-mfe/remoteEntry.js,dist-customer-mfe/668.js.LICENSE.txt,dist-customer-mfe/764.js,dist-customer-mfe/0.js,dist-customer-mfe/41.js.LICENSE.txt,dist-customer-mfe/index.html,dist-customer-mfe/41.js
+[NX Daemon Server] - 2026-10-10T17:23:36.837Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:23:36.925Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:23:36.925Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.6489000003784895ms
+[NX Daemon Server] - 2026-10-10T17:23:36.925Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:23:36.925Z - Handled RECORD_OUTPUTS_HASH. Handling time: 8. Response time: 0.
+[NX Daemon Server] - 2026-10-10T17:23:36.957Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2026-10-10T17:24:17.469Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:24:17.474Z - [WATCHER]: apps/customer-mfe/src/services/customerService.js was modified
+[NX Daemon Server] - 2026-10-10T17:24:17.688Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:24:17.689Z - [REQUEST]: apps/customer-mfe/src/services/customerService.js
+[NX Daemon Server] - 2026-10-10T17:24:17.689Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:24:17.729Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.4697000002488494ms
+[NX Daemon Server] - 2026-10-10T17:24:21.664Z - [WATCHER]: apps/customer-mfe/src/rules/customerRules.js was modified
+[NX Daemon Server] - 2026-10-10T17:24:21.664Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:24:22.083Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:24:22.084Z - [REQUEST]: apps/customer-mfe/src/rules/customerRules.js
+[NX Daemon Server] - 2026-10-10T17:24:22.084Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:24:22.143Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 1.3843000000342727ms
+[NX Daemon Server] - 2026-10-10T17:24:25.896Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:24:25.897Z - [WATCHER]: apps/customer-mfe/src/store/customerSlice.js was modified
+[NX Daemon Server] - 2026-10-10T17:24:26.714Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:24:26.715Z - [REQUEST]: apps/customer-mfe/src/store/customerSlice.js
+[NX Daemon Server] - 2026-10-10T17:24:26.715Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:24:26.787Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.9208000004291534ms
+[NX Daemon Server] - 2026-10-10T17:24:29.021Z - [WATCHER]: apps/customer-mfe/src/components/customer.css was modified
+[NX Daemon Server] - 2026-10-10T17:24:29.021Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:24:30.626Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:24:30.627Z - [REQUEST]: apps/customer-mfe/src/components/customer.css
+[NX Daemon Server] - 2026-10-10T17:24:30.627Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:24:30.689Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 1.4875999996438622ms
+[NX Daemon Server] - 2026-10-10T17:24:31.943Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:24:31.944Z - [WATCHER]: apps/customer-mfe/src/components/CustomerCard.jsx was modified
+[NX Daemon Server] - 2026-10-10T17:24:35.163Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:24:35.163Z - [REQUEST]: apps/customer-mfe/src/components/CustomerCard.jsx
+[NX Daemon Server] - 2026-10-10T17:24:35.163Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:24:35.229Z - [WATCHER]: apps/customer-mfe/src/components/CustomerSearchForm.jsx was modified
+[NX Daemon Server] - 2026-10-10T17:24:35.230Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:24:35.230Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.5175000000745058ms
+[NX Daemon Server] - 2026-10-10T17:24:38.913Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:24:38.914Z - [WATCHER]: apps/customer-mfe/src/components/CustomerCreateForm.jsx was modified
+[NX Daemon Server] - 2026-10-10T17:24:41.634Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:24:41.634Z - [REQUEST]: apps/customer-mfe/src/components/CustomerSearchForm.jsx,apps/customer-mfe/src/components/CustomerCreateForm.jsx
+[NX Daemon Server] - 2026-10-10T17:24:41.634Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:24:41.704Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.90279999980703ms
+[NX Daemon Server] - 2026-10-10T17:24:42.691Z - [WATCHER]: apps/customer-mfe/src/components/CustomerPage.jsx was modified
+[NX Daemon Server] - 2026-10-10T17:24:42.692Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:24:44.739Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:24:44.740Z - [WATCHER]: apps/customer-mfe/src/bootstrap.jsx was modified
+[NX Daemon Server] - 2026-10-10T17:24:46.874Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:24:46.876Z - [WATCHER]: apps/customer-mfe/webpack.config.js was modified
+[NX Daemon Server] - 2026-10-10T17:24:49.094Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:24:49.094Z - [REQUEST]: apps/customer-mfe/src/components/CustomerPage.jsx,apps/customer-mfe/src/bootstrap.jsx,apps/customer-mfe/webpack.config.js
+[NX Daemon Server] - 2026-10-10T17:24:49.094Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:24:49.154Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.8125ms
+[NX Daemon Server] - 2026-10-10T17:24:49.293Z - [WATCHER]: apps/product-mfe/src/services/productService.js was modified
+[NX Daemon Server] - 2026-10-10T17:24:49.294Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:24:51.755Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:24:51.756Z - [WATCHER]: apps/product-mfe/src/rules/productRules.js was modified
+[NX Daemon Server] - 2026-10-10T17:24:54.667Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:24:54.669Z - [WATCHER]: apps/product-mfe/src/store/productSlice.js was modified
+[NX Daemon Server] - 2026-10-10T17:24:55.707Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:24:55.707Z - [REQUEST]: apps/product-mfe/src/services/productService.js,apps/product-mfe/src/rules/productRules.js,apps/product-mfe/src/store/productSlice.js
+[NX Daemon Server] - 2026-10-10T17:24:55.707Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:24:55.757Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 1.1675999998115003ms
+[NX Daemon Server] - 2026-10-10T17:24:57.026Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:24:57.027Z - [WATCHER]: apps/product-mfe/src/components/product.css was modified
+[NX Daemon Server] - 2026-10-10T17:25:03.439Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:25:03.439Z - [REQUEST]: apps/product-mfe/src/components/product.css
+[NX Daemon Server] - 2026-10-10T17:25:03.439Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:25:03.499Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 1.149100000038743ms
+[NX Daemon Server] - 2026-10-10T17:25:04.128Z - [WATCHER]: apps/product-mfe/src/components/ProductCard.jsx was modified
+[NX Daemon Server] - 2026-10-10T17:25:04.128Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:25:07.718Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:25:07.719Z - [WATCHER]: apps/product-mfe/src/components/ProductPage.jsx was modified
+[NX Daemon Server] - 2026-10-10T17:25:10.542Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:25:10.542Z - [REQUEST]: apps/product-mfe/src/components/ProductCard.jsx,apps/product-mfe/src/components/ProductPage.jsx
+[NX Daemon Server] - 2026-10-10T17:25:10.542Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:25:10.584Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.5470000002533197ms
+[NX Daemon Server] - 2026-10-10T17:25:12.257Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:25:12.258Z - [WATCHER]: apps/product-mfe/src/bootstrap.jsx was modified
+[NX Daemon Server] - 2026-10-10T17:25:14.845Z - [WATCHER]: apps/product-mfe/webpack.config.js was modified
+[NX Daemon Server] - 2026-10-10T17:25:14.845Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:25:18.012Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:25:18.013Z - [WATCHER]: apps/policy-mfe/src/services/policyService.js was modified
+[NX Daemon Server] - 2026-10-10T17:25:18.668Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:25:18.668Z - [REQUEST]: apps/product-mfe/src/bootstrap.jsx,apps/product-mfe/webpack.config.js,apps/policy-mfe/src/services/policyService.js
+[NX Daemon Server] - 2026-10-10T17:25:18.668Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:25:18.699Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.4517000000923872ms
+[NX Daemon Server] - 2026-10-10T17:25:20.783Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:25:20.784Z - [WATCHER]: apps/policy-mfe/src/rules/policyRules.js was modified
+[NX Daemon Server] - 2026-10-10T17:25:23.978Z - [WATCHER]: apps/policy-mfe/src/store/policySlice.js was modified
+[NX Daemon Server] - 2026-10-10T17:25:23.978Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:25:26.642Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:25:26.644Z - [WATCHER]: apps/policy-mfe/src/components/policy.css was modified
+[NX Daemon Server] - 2026-10-10T17:25:27.196Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:25:27.196Z - [REQUEST]: apps/policy-mfe/src/rules/policyRules.js,apps/policy-mfe/src/store/policySlice.js,apps/policy-mfe/src/components/policy.css
+[NX Daemon Server] - 2026-10-10T17:25:27.196Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:25:27.261Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.9665999999269843ms
+[NX Daemon Server] - 2026-10-10T17:25:30.091Z - [WATCHER]: apps/policy-mfe/src/components/PolicyDetailsCard.jsx was modified
+[NX Daemon Server] - 2026-10-10T17:25:30.092Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:25:33.769Z - [WATCHER]: apps/policy-mfe/src/components/PolicyPage.jsx was modified
+[NX Daemon Server] - 2026-10-10T17:25:33.769Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:25:36.504Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:25:36.505Z - [REQUEST]: apps/policy-mfe/src/components/PolicyDetailsCard.jsx,apps/policy-mfe/src/components/PolicyPage.jsx
+[NX Daemon Server] - 2026-10-10T17:25:36.505Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:25:36.579Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.9076000000350177ms
+[NX Daemon Server] - 2026-10-10T17:25:37.676Z - [WATCHER]: apps/policy-mfe/src/bootstrap.jsx was modified
+[NX Daemon Server] - 2026-10-10T17:25:37.676Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:25:43.139Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:25:43.140Z - [WATCHER]: apps/policy-mfe/webpack.config.js was modified
+[NX Daemon Server] - 2026-10-10T17:25:44.093Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:25:44.093Z - [REQUEST]: apps/policy-mfe/src/bootstrap.jsx,apps/policy-mfe/webpack.config.js
+[NX Daemon Server] - 2026-10-10T17:25:44.093Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:25:44.129Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.4144999999552965ms
+[NX Daemon Server] - 2026-10-10T17:25:46.810Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:25:46.811Z - [WATCHER]: apps/payment-mfe/src/services/paymentService.js was modified
+[NX Daemon Server] - 2026-10-10T17:25:49.296Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:25:49.297Z - [WATCHER]: apps/payment-mfe/src/rules/paymentRules.js was modified
+[NX Daemon Server] - 2026-10-10T17:25:52.996Z - [WATCHER]: apps/payment-mfe/src/store/paymentSlice.js was modified
+[NX Daemon Server] - 2026-10-10T17:25:52.997Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:25:53.226Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:25:53.226Z - [REQUEST]: apps/payment-mfe/src/services/paymentService.js,apps/payment-mfe/src/rules/paymentRules.js,apps/payment-mfe/src/store/paymentSlice.js
+[NX Daemon Server] - 2026-10-10T17:25:53.226Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:25:53.261Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.4506999999284744ms
+[NX Daemon Server] - 2026-10-10T17:25:56.785Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:25:56.786Z - [WATCHER]: apps/payment-mfe/src/components/payment.css was modified
+[NX Daemon Server] - 2026-10-10T17:25:59.431Z - [WATCHER]: apps/payment-mfe/src/components/PaymentStatusBadge.jsx was modified
+[NX Daemon Server] - 2026-10-10T17:25:59.431Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:26:03.198Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:26:03.198Z - [REQUEST]: apps/payment-mfe/src/components/payment.css,apps/payment-mfe/src/components/PaymentStatusBadge.jsx
+[NX Daemon Server] - 2026-10-10T17:26:03.198Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:26:03.267Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 2.265099999960512ms
+[NX Daemon Server] - 2026-10-10T17:26:03.774Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:26:03.775Z - [WATCHER]: apps/payment-mfe/src/components/PaymentHistoryTable.jsx was modified
+[NX Daemon Server] - 2026-10-10T17:26:07.938Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:26:07.940Z - [WATCHER]: apps/payment-mfe/src/components/PaymentForm.jsx was modified
+[NX Daemon Server] - 2026-10-10T17:26:10.191Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:26:10.191Z - [REQUEST]: apps/payment-mfe/src/components/PaymentHistoryTable.jsx,apps/payment-mfe/src/components/PaymentForm.jsx
+[NX Daemon Server] - 2026-10-10T17:26:10.191Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:26:10.244Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.5597000000998378ms
+[NX Daemon Server] - 2026-10-10T17:26:12.506Z - [WATCHER]: apps/payment-mfe/src/components/PaymentPage.jsx was modified
+[NX Daemon Server] - 2026-10-10T17:26:12.506Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:26:15.690Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:26:15.702Z - [WATCHER]: apps/payment-mfe/src/bootstrap.jsx was modified
+[NX Daemon Server] - 2026-10-10T17:26:18.924Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:26:18.924Z - [REQUEST]: apps/payment-mfe/src/components/PaymentPage.jsx,apps/payment-mfe/src/bootstrap.jsx
+[NX Daemon Server] - 2026-10-10T17:26:18.924Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:26:18.953Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 1.0424000001512468ms
+[NX Daemon Server] - 2026-10-10T17:26:19.145Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:26:19.149Z - [WATCHER]: apps/payment-mfe/webpack.config.js was modified
+[NX Daemon Server] - 2026-10-10T17:26:25.566Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:26:25.566Z - [REQUEST]: apps/payment-mfe/webpack.config.js
+[NX Daemon Server] - 2026-10-10T17:26:25.566Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:26:25.626Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.9111999999731779ms
+[NX Daemon Server] - 2026-10-10T17:26:27.782Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 47 file(s) deleted
+[NX Daemon Server] - 2026-10-10T17:26:27.783Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:26:34.201Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:26:34.201Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:26:34.201Z - [REQUEST]: apps/payment-mfe/src/modules/payment/services,apps/payment-mfe/src/modules/payment/store,apps/policy-mfe/src/modules/policy/components/policy.css,apps/product-mfe/src/modules/product,apps/product-mfe/src/modules/product/components/ProductPage.jsx,apps/policy-mfe/src/modules/policy/components/PolicyPage.jsx,apps/payment-mfe/src/modules/payment/rules/paymentRules.js,apps/payment-mfe/src/modules,apps/customer-mfe/src/modules/customer,apps/customer-mfe/src/modules/customer/components/customer.css,apps/policy-mfe/src/modules,apps/customer-mfe/src/modules/customer/components/CustomerPage.jsx,apps/payment-mfe/src/modules/payment/rules,apps/payment-mfe/src/modules/payment,apps/product-mfe/src/modules/product/services/productService.js,apps/customer-mfe/src/modules/customer/components/CustomerCard.jsx,apps/policy-mfe/src/modules/policy/rules/policyRules.js,apps/product-mfe/src/modules/product/services,apps/customer-mfe/src/modules/customer/components/CustomerCreateForm.jsx,apps/customer-mfe/src/modules/customer/components,apps/customer-mfe/src/modules/customer/store/customerSlice.js,apps/policy-mfe/src/modules/policy,apps/product-mfe/src/modules/product/rules/productRules.js,apps/product-mfe/src/modules,apps/policy-mfe/src/modules/policy/services/policyService.js,apps/product-mfe/src/modules/product/components/product.css,apps/policy-mfe/src/modules/policy/store/policySlice.js,apps/policy-mfe/src/modules/policy/rules,apps/payment-mfe/src/modules/payment/components,apps/policy-mfe/src/modules/policy/components/PolicyDetailsCard.jsx,apps/customer-mfe/src/modules/customer/store,apps/payment-mfe/src/modules/payment/components/PaymentPage.jsx,apps/product-mfe/src/modules/product/components/ProductCard.jsx,apps/product-mfe/src/modules/product/components,apps/customer-mfe/src/modules,apps/customer-mfe/src/modules/customer/rules/customerRules.js,apps/customer-mfe/src/modules/customer/components/CustomerSearchForm.jsx,apps/product-mfe/src/modules/product/rules,apps/policy-mfe/src/modules/policy/store,apps/product-mfe/src/modules/product/store,apps/customer-mfe/src/modules/customer/services/customerService.js,apps/payment-mfe/src/modules/payment/components/PaymentHistoryTable.jsx,apps/policy-mfe/src/modules/policy/services,apps/customer-mfe/src/modules/customer/rules,apps/customer-mfe/src/modules/customer/services,apps/policy-mfe/src/modules/policy/components,apps/product-mfe/src/modules/product/store/productSlice.js
+[NX Daemon Server] - 2026-10-10T17:26:34.281Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 1.478899999987334ms
+[NX Daemon Server] - 2026-10-10T17:26:47.163Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:26:47.165Z - [WATCHER]: apps/product-mfe/src/__tests__/product.test.js was modified
+[NX Daemon Server] - 2026-10-10T17:26:53.577Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:26:53.577Z - [REQUEST]: apps/product-mfe/src/__tests__/product.test.js
+[NX Daemon Server] - 2026-10-10T17:26:53.577Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:26:53.648Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 1.3089999998919666ms
+[NX Daemon Server] - 2026-10-10T17:26:54.433Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:26:54.435Z - [WATCHER]: apps/policy-mfe/src/__tests__/policy.test.js was modified
+[NX Daemon Server] - 2026-10-10T17:27:00.842Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:27:00.843Z - [REQUEST]: apps/policy-mfe/src/__tests__/policy.test.js
+[NX Daemon Server] - 2026-10-10T17:27:00.843Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:27:00.876Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.45940000005066395ms
+[NX Daemon Server] - 2026-10-10T17:27:02.663Z - [WATCHER]: apps/customer-mfe/src/__tests__/customer.test.js was modified
+[NX Daemon Server] - 2026-10-10T17:27:02.664Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:27:07.403Z - [WATCHER]: apps/payment-mfe/src/__tests__/payment.test.js was modified
+[NX Daemon Server] - 2026-10-10T17:27:07.403Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:27:09.078Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:27:09.078Z - [REQUEST]: apps/customer-mfe/src/__tests__/customer.test.js,apps/payment-mfe/src/__tests__/payment.test.js
+[NX Daemon Server] - 2026-10-10T17:27:09.078Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:27:09.148Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 1.0266999998129904ms
+[NX Daemon Server] - 2026-10-10T17:27:32.129Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T17:27:32.130Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2026-10-10T17:27:32.131Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T17:27:32.135Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2026-10-10T17:27:32.136Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2026-10-10T17:27:32.136Z - Time taken for 'total for creating and serializing project graph' 0.7724999999627471ms
+[NX Daemon Server] - 2026-10-10T17:27:32.136Z - Done responding to the client project-graph
+[NX Daemon Server] - 2026-10-10T17:27:32.136Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2026-10-10T17:27:32.172Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2026-10-10T17:27:32.173Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.32299999985843897ms
+[NX Daemon Server] - 2026-10-10T17:27:32.173Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2026-10-10T17:27:32.173Z - Handled HASH_TASKS. Handling time: 9. Response time: 1.
+[NX Daemon Server] - 2026-10-10T17:27:32.294Z - [REQUEST]: Responding to the client. outputsHashesMatch
+[NX Daemon Server] - 2026-10-10T17:27:32.294Z - Done responding to the client outputsHashesMatch
+[NX Daemon Server] - 2026-10-10T17:27:32.294Z - Handled OUTPUTS_HASHES_MATCH. Handling time: 5. Response time: 0.
+[NX Daemon Server] - 2026-10-10T17:27:32.301Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:27:32.301Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:27:32.301Z - Handled RECORD_OUTPUTS_HASH. Handling time: 5. Response time: 0.
+[NX Daemon Server] - 2026-10-10T17:27:45.585Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:27:45.587Z - [WATCHER]: 0 file(s) created or restored, 7 file(s) modified, 4 file(s) deleted
+[NX Daemon Server] - 2026-10-10T17:27:45.696Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:27:45.696Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:27:45.696Z - Handled RECORD_OUTPUTS_HASH. Handling time: 9. Response time: 0.
+[NX Daemon Server] - 2026-10-10T17:27:45.723Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:27:45.723Z - [REQUEST]: dist-customer-mfe/685.js,dist-customer-mfe/800.js.LICENSE.txt,dist-customer-mfe/800.js,dist-customer-mfe/main.js,dist-customer-mfe/remoteEntry.js,dist-customer-mfe/237.js,dist-customer-mfe/446.js
+[NX Daemon Server] - 2026-10-10T17:27:45.723Z - [REQUEST]: dist-customer-mfe/668.js.LICENSE.txt,dist-customer-mfe/764.js,dist-customer-mfe/668.js,dist-customer-mfe/759.js
+[NX Daemon Server] - 2026-10-10T17:27:45.793Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 4.993600000161678ms
+[NX Daemon Server] - 2026-10-10T17:27:45.871Z - [WATCHER]: 0 file(s) created or restored, 4 file(s) modified, 4 file(s) deleted
+[NX Daemon Server] - 2026-10-10T17:27:45.872Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:27:45.932Z - [WATCHER]: 0 file(s) created or restored, 3 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2026-10-10T17:27:45.932Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:27:46.067Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:27:46.068Z - [WATCHER]: 0 file(s) created or restored, 14 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2026-10-10T17:27:46.082Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:27:46.082Z - [REQUEST]: dist-product-mfe/775.js,dist-product-mfe/160.js.LICENSE.txt,dist-product-mfe/160.js,dist-product-mfe/775.js.LICENSE.txt,dist-payment-mfe/main.js,dist-product-mfe/remoteEntry.js,dist-product-mfe/main.js,dist-payment-mfe/424.js,dist-payment-mfe/41.js.LICENSE.txt,dist-payment-mfe/index.html,dist-payment-mfe/693.js,dist-payment-mfe/0.js,dist-payment-mfe/41.js,dist-payment-mfe/237.js,dist-payment-mfe/144.js.LICENSE.txt,dist-payment-mfe/remoteEntry.js,dist-payment-mfe/237.js.LICENSE.txt,dist-payment-mfe/144.js,dist-payment-mfe/461.js,dist-payment-mfe/693.js.LICENSE.txt
+[NX Daemon Server] - 2026-10-10T17:27:46.082Z - [REQUEST]: dist-product-mfe/681.js.LICENSE.txt,dist-product-mfe/139.js,dist-product-mfe/139.js.LICENSE.txt,dist-product-mfe/681.js
+[NX Daemon Server] - 2026-10-10T17:27:46.153Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:27:46.154Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.5715999999083579ms
+[NX Daemon Server] - 2026-10-10T17:27:46.154Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:27:46.154Z - Handled RECORD_OUTPUTS_HASH. Handling time: 6. Response time: 1.
+[NX Daemon Server] - 2026-10-10T17:27:46.173Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:27:46.174Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:27:46.174Z - Handled RECORD_OUTPUTS_HASH. Handling time: 18. Response time: 1.
+[NX Daemon Server] - 2026-10-10T17:27:51.774Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:27:51.777Z - [WATCHER]: 0 file(s) created or restored, 5 file(s) modified, 4 file(s) deleted
+[NX Daemon Server] - 2026-10-10T17:27:51.838Z - [WATCHER]: dist-policy-mfe/remoteEntry.js was modified
+[NX Daemon Server] - 2026-10-10T17:27:51.838Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:27:51.871Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:27:51.871Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:27:51.872Z - Handled RECORD_OUTPUTS_HASH. Handling time: 6. Response time: 1.
+[NX Daemon Server] - 2026-10-10T17:27:51.888Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2026-10-10T17:27:52.187Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:27:52.187Z - [REQUEST]: dist-policy-mfe/main.js,dist-policy-mfe/93.js.LICENSE.txt,dist-policy-mfe/12.js,dist-policy-mfe/93.js,dist-policy-mfe/12.js.LICENSE.txt,dist-policy-mfe/remoteEntry.js
+[NX Daemon Server] - 2026-10-10T17:27:52.187Z - [REQUEST]: dist-policy-mfe/35.js,dist-policy-mfe/682.js,dist-policy-mfe/682.js.LICENSE.txt,dist-policy-mfe/35.js.LICENSE.txt
+[NX Daemon Server] - 2026-10-10T17:27:52.222Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.5123000000603497ms
+[NX Daemon Server] - 2026-10-10T17:27:54.344Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:27:54.345Z - [WATCHER]: libs/api-client/src/index.js was modified
+[NX Daemon Server] - 2026-10-10T17:27:55.162Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:27:55.162Z - [REQUEST]: libs/api-client/src/index.js
+[NX Daemon Server] - 2026-10-10T17:27:55.162Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:27:55.200Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.8972000000067055ms
+[NX Daemon Server] - 2026-10-10T17:28:03.670Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T17:28:03.672Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2026-10-10T17:28:03.673Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T17:28:03.675Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2026-10-10T17:28:03.676Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2026-10-10T17:28:03.676Z - Time taken for 'total for creating and serializing project graph' 0.841200000140816ms
+[NX Daemon Server] - 2026-10-10T17:28:03.677Z - Done responding to the client project-graph
+[NX Daemon Server] - 2026-10-10T17:28:03.677Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2026-10-10T17:28:03.717Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2026-10-10T17:28:03.717Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.6307000000961125ms
+[NX Daemon Server] - 2026-10-10T17:28:03.717Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2026-10-10T17:28:03.717Z - Handled HASH_TASKS. Handling time: 13. Response time: 0.
+[NX Daemon Server] - 2026-10-10T17:28:17.641Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:28:17.645Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:28:17.645Z - Handled RECORD_OUTPUTS_HASH. Handling time: 9. Response time: 4.
+[NX Daemon Server] - 2026-10-10T17:28:17.776Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:28:17.777Z - [WATCHER]: dist-payment-mfe/693.js was modified
+[NX Daemon Server] - 2026-10-10T17:28:17.828Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:28:17.828Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:28:17.828Z - Handled RECORD_OUTPUTS_HASH. Handling time: 6. Response time: 0.
+[NX Daemon Server] - 2026-10-10T17:28:17.892Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:28:17.892Z - [REQUEST]: dist-payment-mfe/693.js
+[NX Daemon Server] - 2026-10-10T17:28:17.892Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:28:18.008Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:28:18.010Z - [WATCHER]: dist-customer-mfe/800.js was modified
+[NX Daemon Server] - 2026-10-10T17:28:18.056Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 1.1076000002212822ms
+[NX Daemon Server] - 2026-10-10T17:28:18.065Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:28:18.065Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:28:18.065Z - Handled RECORD_OUTPUTS_HASH. Handling time: 7. Response time: 0.
+[NX Daemon Server] - 2026-10-10T17:28:18.223Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:28:18.226Z - [REQUEST]: dist-customer-mfe/800.js
+[NX Daemon Server] - 2026-10-10T17:28:18.226Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:28:18.331Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.6907999999821186ms
+[NX Daemon Server] - 2026-10-10T17:28:29.411Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:28:29.414Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2026-10-10T17:28:29.477Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:28:29.477Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:28:29.477Z - Handled RECORD_OUTPUTS_HASH. Handling time: 6. Response time: 0.
+[NX Daemon Server] - 2026-10-10T17:28:29.735Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2026-10-10T17:28:29.736Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2026-10-10T17:28:29.758Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:28:29.758Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:28:29.758Z - Handled RECORD_OUTPUTS_HASH. Handling time: 5. Response time: 0.
+[NX Daemon Server] - 2026-10-10T17:28:29.764Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2026-10-10T17:28:29.833Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2026-10-10T17:28:29.833Z - [REQUEST]: dist-product-mfe/775.js,dist-product-mfe/160.js,dist-policy-mfe/12.js,dist-policy-mfe/93.js
+[NX Daemon Server] - 2026-10-10T17:28:29.833Z - [REQUEST]: 
+[NX Daemon Server] - 2026-10-10T17:28:29.927Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.5860999999567866ms
+[NX Daemon Server] - 2026-10-10T17:28:59.321Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T17:28:59.323Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2026-10-10T17:28:59.324Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2026-10-10T17:28:59.326Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2026-10-10T17:28:59.327Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2026-10-10T17:28:59.328Z - Time taken for 'total for creating and serializing project graph' 1.0998999997973442ms
+[NX Daemon Server] - 2026-10-10T17:28:59.328Z - Done responding to the client project-graph
+[NX Daemon Server] - 2026-10-10T17:28:59.328Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2026-10-10T17:28:59.368Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2026-10-10T17:28:59.368Z - Time taken for 'Load Nx Plugin: C:\personal-data\prudential\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 0.4245000001974404ms
+[NX Daemon Server] - 2026-10-10T17:28:59.369Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2026-10-10T17:28:59.369Z - Handled HASH_TASKS. Handling time: 10. Response time: 1.
+[NX Daemon Server] - 2026-10-10T17:31:12.155Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:31:12.155Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:31:12.155Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2026-10-10T17:31:12.157Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:31:12.158Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:31:12.158Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2026-10-10T17:31:12.261Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:31:12.261Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:31:12.261Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2026-10-10T17:31:12.271Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:31:12.272Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:31:12.272Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2026-10-10T17:31:12.273Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:31:12.273Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2026-10-10T17:31:12.273Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2026-10-10T17:31:12.378Z - Closed a connection. Number of open connections: 0

@@ -1,0 +1,48 @@
+> webpack --mode=production --config apps/payment-mfe/webpack.config.js
+
+assets by status 217 KiB [1m[32m[cached][39m[22m 9 assets
+orphan modules 116 KiB [1m[33m[orphan][39m[22m 46 modules
+runtime modules 34.5 KiB 26 modules
+built modules 362 KiB (javascript) 168 bytes (share-init) 168 bytes (consume-shared) [1m[33m[built][39m[22m
+  javascript modules 362 KiB
+    modules by path [1m../../node_modules/[39m[22m 345 KiB 12 modules
+    modules by path [1m./src/[39m[22m 16.8 KiB 5 modules
+    [1mcontainer entry[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  provide-module modules 168 bytes
+    [1mprovide shared module (default) @reduxjs/toolkit@1.9.7 = ../../node_modules/@red...(truncated)[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1mprovide shared module (default) react-dom@18.3.1 = ../../node_modules/reac...(truncated)[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    + 2 modules
+  consume-shared-module modules 168 bytes
+    [1mconsume shared module (default) react-redux@^8.1.3 (singleton) (fallback: ../../...(truncated)[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1mconsume shared module (default) @reduxjs/toolkit@^1.9.7 (singleton) (fallback: ....(truncated)[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    + 2 modules
+
+[1m[31mERROR[39m[22m in [1m./src/modules/payment/components/PaymentHistoryTable.jsx[39m[22m [1m[32m2:0-62[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './PaymentStatusBadge.jsx' in 'C:\personal-data\prudential\apps\payment-mfe\src\modules\payment\components'[39m[22m
+ @ ./src/modules/payment/components/PaymentPage.jsx 8:0-64 102:28-47
+ @ container entry ./PaymentModule[0]
+
+[1m[31mERROR[39m[22m in [1m./src/modules/payment/components/PaymentPage.jsx[39m[22m [1m[32m4:0-133[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../store/paymentSlice.js' in 'C:\personal-data\prudential\apps\payment-mfe\src\modules\payment\components'[39m[22m
+ @ container entry ./PaymentModule[0]
+
+[1m[31mERROR[39m[22m in [1m./src/modules/payment/components/PaymentPage.jsx[39m[22m [1m[32m5:0-63[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../services/paymentService.js' in 'C:\personal-data\prudential\apps\payment-mfe\src\modules\payment\components'[39m[22m
+ @ container entry ./PaymentModule[0]
+
+[1m[31mERROR[39m[22m in [1m./src/modules/payment/components/PaymentPage.jsx[39m[22m [1m[32m7:0-48[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './PaymentForm.jsx' in 'C:\personal-data\prudential\apps\payment-mfe\src\modules\payment\components'[39m[22m
+ @ container entry ./PaymentModule[0]
+
+[1m[31mERROR[39m[22m in [1m./src/modules/payment/components/PaymentPage.jsx[39m[22m [1m[32m9:0-62[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './PaymentStatusBadge.jsx' in 'C:\personal-data\prudential\apps\payment-mfe\src\modules\payment\components'[39m[22m
+ @ container entry ./PaymentModule[0]
+
+[1m[31mERROR[39m[22m in [1m./src/modules/payment/components/PaymentPage.jsx[39m[22m [1m[32m10:0-23[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './payment.css' in 'C:\personal-data\prudential\apps\payment-mfe\src\modules\payment\components'[39m[22m
+ @ container entry ./PaymentModule[0]
+
+[1m[33m6 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.[39m[22m
+
+webpack 5.111.1 compiled with [1m[31m6 errors[39m[22m in 7277 ms

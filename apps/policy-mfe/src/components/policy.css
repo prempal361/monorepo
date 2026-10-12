@@ -1,0 +1,32 @@
+.policy-container {
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.policy-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 12px;
+  background: #fdfdfd;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.status-badge.ACTIVE {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.status-badge.PENDING_PAYMENT {
+  background: #fef3c7;
+  color: #92400e;
+}

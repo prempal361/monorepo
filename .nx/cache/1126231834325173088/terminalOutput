@@ -1,0 +1,28 @@
+> webpack --mode=production --config apps/product-mfe/webpack.config.js
+
+assets by chunk 185 KiB (id hint: vendors)
+  asset [1m[32m144.js[39m[22m 130 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m (id hint: vendors) 1 related asset
+  asset [1m[32m0.js[39m[22m 42 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m (id hint: vendors)
+  asset [1m[32m237.js[39m[22m 13.7 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m (id hint: vendors) 1 related asset
+asset [1m[32m139.js[39m[22m 9.94 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m 1 related asset
+asset [1m[32m681.js[39m[22m 9.9 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m 1 related asset
+asset [1m[32mremoteEntry.js[39m[22m 6.46 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m (name: productMfe)
+asset [1m[32m41.js[39m[22m 6.39 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m 1 related asset
+asset [1m[32mmain.js[39m[22m 6.02 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m (name: main)
+asset [1m[32mindex.html[39m[22m 324 bytes [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m
+orphan modules 116 KiB [1m[33m[orphan][39m[22m 46 modules
+runtime modules 34.9 KiB 28 modules
+built modules 383 KiB (javascript) 168 bytes (share-init) 168 bytes (consume-shared) [1m[33m[built][39m[22m
+  cacheable modules 383 KiB
+    modules by path [1m../../[39m[22m 356 KiB 21 modules
+    modules by path [1m./src/[39m[22m 26.8 KiB 9 modules
+  provide-module modules 168 bytes
+    [1mprovide shared module (default) @reduxjs/toolkit@1.9.7 = ../../node_modules/@red...(truncated)[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1mprovide shared module (default) react-dom@18.3.1 = ../../node_modules/reac...(truncated)[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    + 2 modules
+  consume-shared-module modules 168 bytes
+    [1mconsume shared module (default) react-redux@^8.1.3 (singleton) (fallback: ../../...(truncated)[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1mconsume shared module (default) @reduxjs/toolkit@^1.9.7 (singleton) (fallback: ....(truncated)[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    + 2 modules
+  [1mcontainer entry[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.111.1 compiled [1m[32msuccessfully[39m[22m in 9513 ms

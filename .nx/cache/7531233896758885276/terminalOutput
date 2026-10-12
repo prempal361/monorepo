@@ -1,0 +1,27 @@
+[2m> [22mwebpack --mode=production --config apps/agent-shell/webpack.config.js
+
+assets by chunk 268 KiB (id hint: vendors)
+  asset [1m[32m144.js[39m[22m 130 KiB [1m[33m[compared for emit][39m[22m [1m[32m[minimized][39m[22m (id hint: vendors) 1 related asset
+  asset [1m[32m955.js[39m[22m 82.3 KiB [1m[33m[compared for emit][39m[22m [1m[32m[minimized][39m[22m (id hint: vendors) 1 related asset
+  asset [1m[32m0.js[39m[22m 42 KiB [1m[33m[compared for emit][39m[22m [1m[32m[minimized][39m[22m (id hint: vendors)
+  asset [1m[32m237.js[39m[22m 13.7 KiB [1m[33m[compared for emit][39m[22m [1m[32m[minimized][39m[22m (id hint: vendors) 1 related asset
+asset [1m[32mmain.js[39m[22m 9.45 KiB [1m[33m[compared for emit][39m[22m [1m[32m[minimized][39m[22m (name: main)
+asset [1m[32m434.js[39m[22m 9.34 KiB [1m[33m[compared for emit][39m[22m [1m[32m[minimized][39m[22m 1 related asset
+asset [1m[32m41.js[39m[22m 6.39 KiB [1m[33m[compared for emit][39m[22m [1m[32m[minimized][39m[22m 1 related asset
+asset [1m[32mindex.html[39m[22m 324 bytes [1m[33m[compared for emit][39m[22m [1m[32m[minimized][39m[22m
+orphan modules 382 KiB [1m[33m[orphan][39m[22m 59 modules
+runtime modules 20.8 KiB 16 modules
+built modules 671 KiB (javascript) 234 bytes (share-init) 210 bytes (consume-shared) 24 bytes (remote) [1m[33m[built][39m[22m
+  javascript modules 671 KiB
+    cacheable modules 671 KiB 16 modules
+    + 4 modules
+  provide-module modules 210 bytes
+    [1mprovide shared module (default) @reduxjs/toolkit@1.9.7 = ../../node_modules/@red...(truncated)[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    + 4 modules
+  consume-shared-module modules 210 bytes
+    [1mconsume shared module (default) react@^18.2.0 (singleton) (fallback: ../../node_...(truncated)[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    + 4 modules
+  remote-module modules 24 bytes (remote) 24 bytes (share-init)
+    [1mremote customerMfe/CustomerModule[39m[22m 6 bytes (remote) 6 bytes (share-init) [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    + 3 modules
+webpack 5.111.1 compiled [1m[32msuccessfully[39m[22m in 5823 ms

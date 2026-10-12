@@ -1,0 +1,19 @@
+{
+  "name": "policy-mfe",
+  "projectType": "application",
+  "sourceRoot": "apps/policy-mfe/src",
+  "targets": {
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "webpack --mode=production --config apps/policy-mfe/webpack.config.js"
+      }
+    },
+    "serve": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "webpack serve --mode=development --config apps/policy-mfe/webpack.config.js"
+      }
+    }
+  }
+}

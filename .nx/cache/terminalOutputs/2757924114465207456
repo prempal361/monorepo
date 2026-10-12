@@ -1,0 +1,63 @@
+> webpack --mode=production --config apps/customer-mfe/webpack.config.js
+
+assets by status 148 KiB [1m[32m[cached][39m[22m 6 assets
+runtime modules 30.5 KiB 18 modules
+orphan modules 1.65 KiB [1m[33m[orphan][39m[22m 3 modules
+built modules 143 KiB (javascript) 84 bytes (share-init) 84 bytes (consume-shared) [1m[33m[built][39m[22m
+  javascript modules 143 KiB
+    modules by path [1m../../node_modules/[39m[22m 141 KiB 6 modules
+    modules by path [1m./src/[39m[22m 2.03 KiB
+      [1m./src/index.js[39m[22m 26 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+      [1m./src/bootstrap.jsx + 3 modules[39m[22m 2 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1mcontainer entry[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  provide-module modules 84 bytes
+    [1mprovide shared module (default) react-dom@18.3.1 = ../../node_modules/reac...(truncated)[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1mprovide shared module (default) react@18.3.1 = ../../node_modules/react/index.js[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  consume-shared-module modules 84 bytes
+    [1mconsume shared module (default) react@^18.2.0 (singleton) (fallback: ../../node_...(truncated)[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1mconsume shared module (default) react-dom@^18.2.0 (singleton) (fallback: ../../n...(truncated)[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/bootstrap.jsx[39m[22m [1m[32m3:0-74[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './modules/customer/components/CustomerPage.jsx' in 'C:\personal-data\prudential\apps\customer-mfe\src'[39m[22m
+resolve './modules/customer/components/CustomerPage.jsx' in 'C:\personal-data\prudential\apps\customer-mfe\src'
+  using description file: C:\personal-data\prudential\package.json (relative path: ./apps/customer-mfe/src)
+    Field 'browser' doesn't contain a valid alias configuration
+    using description file: C:\personal-data\prudential\package.json (relative path: ./apps/customer-mfe/src/modules/customer/components/CustomerPage.jsx)
+      no extension
+        Field 'browser' doesn't contain a valid alias configuration
+[1m[31m        C:\personal-data\prudential\apps\customer-mfe\src\modules\customer\components\CustomerPage.jsx doesn't exist[39m[22m
+      .jsx
+        Field 'browser' doesn't contain a valid alias configuration
+[1m[31m        C:\personal-data\prudential\apps\customer-mfe\src\modules\customer\components\CustomerPage.jsx.jsx doesn't exist[39m[22m
+      .js
+        Field 'browser' doesn't contain a valid alias configuration
+[1m[31m        C:\personal-data\prudential\apps\customer-mfe\src\modules\customer\components\CustomerPage.jsx.js doesn't exist[39m[22m
+      .json
+        Field 'browser' doesn't contain a valid alias configuration
+[1m[31m        C:\personal-data\prudential\apps\customer-mfe\src\modules\customer\components\CustomerPage.jsx.json doesn't exist[39m[22m
+      as directory
+[1m[31m        C:\personal-data\prudential\apps\customer-mfe\src\modules\customer\components\CustomerPage.jsx doesn't exist[39m[22m
+ @ ./src/index.js
+
+[1m[31mERROR[39m[22m in [1mcontainer entry[39m[22m [1m[32m./CustomerModule[0][39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './src/modules/customer/components/CustomerPage.jsx' in 'C:\personal-data\prudential\apps\customer-mfe'[39m[22m
+resolve './src/modules/customer/components/CustomerPage.jsx' in 'C:\personal-data\prudential\apps\customer-mfe'
+  using description file: C:\personal-data\prudential\package.json (relative path: ./apps/customer-mfe)
+    Field 'browser' doesn't contain a valid alias configuration
+    using description file: C:\personal-data\prudential\package.json (relative path: ./apps/customer-mfe/src/modules/customer/components/CustomerPage.jsx)
+      no extension
+        Field 'browser' doesn't contain a valid alias configuration
+[1m[31m        C:\personal-data\prudential\apps\customer-mfe\src\modules\customer\components\CustomerPage.jsx doesn't exist[39m[22m
+      .jsx
+        Field 'browser' doesn't contain a valid alias configuration
+[1m[31m        C:\personal-data\prudential\apps\customer-mfe\src\modules\customer\components\CustomerPage.jsx.jsx doesn't exist[39m[22m
+      .js
+        Field 'browser' doesn't contain a valid alias configuration
+[1m[31m        C:\personal-data\prudential\apps\customer-mfe\src\modules\customer\components\CustomerPage.jsx.js doesn't exist[39m[22m
+      .json
+        Field 'browser' doesn't contain a valid alias configuration
+[1m[31m        C:\personal-data\prudential\apps\customer-mfe\src\modules\customer\components\CustomerPage.jsx.json doesn't exist[39m[22m
+      as directory
+[1m[31m        C:\personal-data\prudential\apps\customer-mfe\src\modules\customer\components\CustomerPage.jsx doesn't exist[39m[22m
+
+webpack 5.111.1 compiled with [1m[31m2 errors[39m[22m in 8575 ms

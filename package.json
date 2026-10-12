@@ -2,7 +2,7 @@
   "name": "prudential-agent-portal",
   "version": "1.0.0",
   "private": true,
-  "description": "Prudential Agent Portal Frontend Monorepo with Webpack 5 Module Federation & DDD Architecture",
+  "description": "Prudential Agent Portal Monorepo with Webpack 5 Module Federation",
   "scripts": {
     "start": "nx run-many --target=serve --all --parallel=10",
     "start:shell": "nx serve agent-shell",

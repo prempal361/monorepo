@@ -1,0 +1,44 @@
+> webpack --mode=production --config apps/customer-mfe/webpack.config.js
+
+assets by status 191 KiB [1m[33m[compared for emit][39m[22m
+  assets by chunk 171 KiB (id hint: vendors)
+    asset [1m[32m144.js[39m[22m 130 KiB [1m[33m[compared for emit][39m[22m [1m[32m[minimized][39m[22m (id hint: vendors) 1 related asset
+    asset [1m[32m0.js[39m[22m 42 KiB [1m[33m[compared for emit][39m[22m [1m[32m[minimized][39m[22m (id hint: vendors)
+  assets by status 12.5 KiB [1m[32m[emitted][39m[22m
+    asset [1m[32mremoteEntry.js[39m[22m 6.46 KiB [1m[32m[emitted][39m[22m [1m[33m[compared for emit][39m[22m [1m[32m[minimized][39m[22m (name: customerMfe)
+    asset [1m[32mmain.js[39m[22m 6.02 KiB [1m[32m[emitted][39m[22m [1m[33m[compared for emit][39m[22m [1m[32m[minimized][39m[22m (name: main)
+  asset [1m[32m41.js[39m[22m 6.39 KiB [1m[33m[compared for emit][39m[22m [1m[32m[minimized][39m[22m 1 related asset
+  asset [1m[32mindex.html[39m[22m 325 bytes [1m[33m[compared for emit][39m[22m [1m[32m[minimized][39m[22m
+asset [1m[32m237.js[39m[22m 13.7 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m (id hint: vendors) 1 related asset
+asset [1m[32m800.js[39m[22m 10.8 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m 1 related asset
+asset [1m[32m685.js[39m[22m 1.4 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m
+asset [1m[32m446.js[39m[22m 1.26 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m
+orphan modules 125 KiB [1m[33m[orphan][39m[22m 54 modules
+runtime modules 34.9 KiB 28 modules
+built modules 374 KiB (javascript) 168 bytes (share-init) 168 bytes (consume-shared) [1m[33m[built][39m[22m
+  javascript modules 374 KiB
+    modules by path [1m../../node_modules/[39m[22m 348 KiB 14 modules
+    modules by path [1m./src/[39m[22m 26.7 KiB 10 modules
+    [1mcontainer entry[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  provide-module modules 168 bytes
+    [1mprovide shared module (default) @reduxjs/toolkit@1.9.7 = ../../node_modules/@red...(truncated)[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1mprovide shared module (default) react-dom@18.3.1 = ../../node_modules/reac...(truncated)[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    + 2 modules
+  consume-shared-module modules 168 bytes
+    [1mconsume shared module (default) react-redux@^8.1.3 (singleton) (fallback: ../../...(truncated)[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1mconsume shared module (default) react@^18.2.0 (singleton) (fallback: ../../node_...(truncated)[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    + 2 modules
+
+[1m[33mWARNING[39m[22m in [1m./src/services/customerService.js[39m[22m [1m[32m4:27-40[39m[22m
+[1mexport 'apiClient' (imported as 'apiClient') was [1m[31mnot found[39m[22m[1m in '@prudential/api-client' (possible exports: [1m[32mApiError, PROVISIONAL_CONTRACT_NOTICE, createApiClient, defaultApiClient[39m[22m[1m)[39m[22m
+ @ ./src/store/customerSlice.js 2:0-80 4:21-35 8:21-35
+ @ ./src/components/CustomerPage.jsx
+ @ container entry ./CustomerModule[0]
+
+[1m[33mWARNING[39m[22m in [1m./src/services/customerService.js[39m[22m [1m[32m28:27-41[39m[22m
+[1mexport 'apiClient' (imported as 'apiClient') was [1m[31mnot found[39m[22m[1m in '@prudential/api-client' (possible exports: [1m[32mApiError, PROVISIONAL_CONTRACT_NOTICE, createApiClient, defaultApiClient[39m[22m[1m)[39m[22m
+ @ ./src/store/customerSlice.js 2:0-80 4:21-35 8:21-35
+ @ ./src/components/CustomerPage.jsx
+ @ container entry ./CustomerModule[0]
+
+webpack 5.111.1 compiled with [1m[33m2 warnings[39m[22m in 12022 ms

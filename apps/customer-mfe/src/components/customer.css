@@ -1,0 +1,82 @@
+.customer-container {
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.customer-search-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.customer-search-box input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.customer-search-box button, .btn-primary {
+  padding: 10px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.customer-search-box button:hover, .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.customer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.customer-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 16px;
+  background: #fafafa;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.customer-card:hover {
+  transform: translateY(-2px);
+  border-color: #007bff;
+}
+
+.customer-card.selected {
+  border-color: #28a745;
+  background: #e8f8f0;
+}
+
+.form-group {
+  margin-bottom: 12px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error-text {
+  color: #d9534f;
+  font-size: 12px;
+  margin-top: 4px;
+}

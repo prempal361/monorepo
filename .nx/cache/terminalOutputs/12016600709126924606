@@ -1,0 +1,25 @@
+[2m> [22mwebpack serve --mode=development --config apps/agent-shell/webpack.config.js
+
+C:\personal-data\prudential\node_modules\webpack-dev-server\lib\Server.js:2702
+        throw error;
+        ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+[90m    at Server.setupListenHandle [as _listen2] (node:net:1872:16)[39m
+[90m    at listenInCluster (node:net:1920:12)[39m
+[90m    at Server.listen (node:net:2008:7)[39m
+    at READ_WRITE [90m(C:\personal-data\prudential\[39mnode_modules\[4mwebpack-dev-server[24m\lib\Server.js:3612:23[90m)[39m
+    at new Promise (<anonymous>)
+    at Server.start [90m(C:\personal-data\prudential\[39mnode_modules\[4mwebpack-dev-server[24m\lib\Server.js:3610:7[90m)[39m
+    at async Command.<anonymous> [90m(C:\personal-data\prudential\[39mnode_modules\[4m@webpack-cli[24m\serve\lib\index.js:158:21[90m)[39m
+    at async Command.parseAsync [90m(C:\personal-data\prudential\[39mnode_modules\[4mwebpack-cli[24m\node_modules\[4mcommander[24m\lib\command.js:935:5[90m)[39m
+    at async Command.<anonymous> [90m(C:\personal-data\prudential\[39mnode_modules\[4mwebpack-cli[24m\lib\webpack-cli.js:1356:13[90m)[39m
+    at async Command.parseAsync [90m(C:\personal-data\prudential\[39mnode_modules\[4mwebpack-cli[24m\node_modules\[4mcommander[24m\lib\command.js:935:5[90m)[39m {
+  code: [32m'EADDRINUSE'[39m,
+  errno: [33m-4091[39m,
+  syscall: [32m'listen'[39m,
+  address: [32m'::'[39m,
+  port: [33m3000[39m
+}
+
+Node.js v20.11.0
